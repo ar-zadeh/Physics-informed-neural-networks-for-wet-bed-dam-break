@@ -1,10 +1,25 @@
-# Python environments and bytecode
+# Python environments, bytecode, and test caches
 .venv/
+.venv-gpu/
+venv/
+env/
+ENV/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx
 
 # Training output; the supplied archive is deliberately tracked.
 runs/
+rar_ablation_*/
+*.log
 
 # Regenerated chapter artifacts
 chapter/v1/*.docx
