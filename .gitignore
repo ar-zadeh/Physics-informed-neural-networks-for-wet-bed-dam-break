@@ -1,0 +1,13 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Training output; the supplied archive is deliberately tracked.
+runs/
+
+# Regenerated chapter artifacts
+chapter/v1/*.docx
+chapter/v1/*.pdf
+chapter/v1/*.pagination.json
+chapter/v1/focused_analysis.json
